@@ -1,0 +1,23 @@
+package ex2;
+import java.util.Scanner;
+public class ex2 {
+ public static void main(String[] args)
+ {
+ int a;
+ Scanner num=new Scanner(System.in);
+ double res;
+ System.out.print("Print a: ");
+ a=num.nextInt();
+ int b;
+ System.out.print("Print b: ");
+ b=num.nextInt();
+ int c;
+ System.out.print("Print c: ");
+ c=num.nextInt();
+ res=((b+ Math.sqrt(b*b+4*c*a))/2*a)- Math.pow(a,3)*c+ Math.pow(b,-2);
+//Класс Math располагается в пакете java.lang и предоставляет набор 
+статических //методов для осуществления ряда различных математических 
+вычислений.
+ System.out.print("result = "+res); 
+ } 
+ } 
