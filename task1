@@ -1,0 +1,18 @@
+package ex1;
+import java.util.Scanner;
+public class Main {
+ public static void main(String[] args) {
+ Scanner num=new Scanner(System.in);
+ int a;
+ System.out.print("Print a: ");
+ a=num.nextInt();
+ int b;
+ System.out.print("Print b: ");
+ b=num.nextInt();
+ int c;
+ System.out.print("Print c: ");
+ c=num.nextInt();
+ double z=(((a-3)*b)/2)+c;
+ System.out.print("z=((a-3)*b/2)+c="+z);
+ }
+}
